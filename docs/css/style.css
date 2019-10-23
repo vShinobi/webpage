@@ -137,6 +137,11 @@ article#about-col{
   text-align: center;
 
 }
+/* Test-col */
+article#test-col{
+  float:right;
+  width:50%
+}
 
 footer{
   padding:20px;
