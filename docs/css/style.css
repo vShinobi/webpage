@@ -143,6 +143,14 @@ article#test-col{
   width:50%
 }
 
+#test-col > p{
+  color:red;
+}
+
+#test-col h1{
+  color: purple;
+}
+
 footer{
   padding:20px;
   margin-top:20px;
