@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
   <link rel="manifest" href="favicon_io/site.webmanifest">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Affordable and professional Pc Builds">
   <meta name="keywords" content="pc builds, affordable pc builds, professional pc builds">
   <meta name="author" content="Myles Taylor">
@@ -43,19 +43,33 @@
     </div>
   </section>
 
-  <section id="main">
-    <div class="container">
-      <table> <tr>
-  <th></th> <th>ABC</th> <th>BBC</th> <th>CNN</th>
-  </tr> <tr>
-  <th>6pm - 7pm</th>
-  <td rowspan="2">Movie</td> <td>Comedy</td> <td>News</td>
-  </tr> <tr>
-  <th>7pm - 8pm</th> <td>Sport</td> <td>Current Affairs</td>
-    </tr>
-  </table>
-    </div>
-  </section>
+  <style>
+  .example {
+    padding: 20px;
+    color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  }
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  }
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
+  </style>
+  </head>
+  <body>
+
+  <h2>Typical Breakpoints</h2>
+  <p class="example">Resize the browser window to see how the background color of this paragraph changes on different screen sizes.</p>
 
   <footer>
     <p> Shinobi Pc Building, Copyright &copy; 2019</p>
