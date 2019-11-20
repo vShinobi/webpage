@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding:0;
   margin:0;
-  background-color:#f4f4f4;
+  background-color:white;
 }
 
  /* Global */
@@ -23,20 +23,20 @@ ul{
   border:0;
   padding-left:20px;
   padding-right:20px;
-  color:#f4f4f4;
+  color:#white;
 }
 
 /* Header **/
 header{
-  background:#808080;
-  color:#f4f4f4;
+  background:silver;
+  color:white;
   padding-top:30px;
   min-height:70px;
   border-bottom:#000000 3px solid;
 }
 
 header a{
-  color:#f4f4f4;
+  color:white;
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
@@ -67,7 +67,7 @@ header .highlight, header .current a{
 }
 
 header a:hover{
-  color:#cccccc;
+  color:red;
   font-weight:bold;
 }
 
@@ -93,7 +93,7 @@ header a:hover{
 #newsletter{
   padding:15px;
   color:#f4f4f4;
-  background:#808080
+  background:silver
 }
 
 #newsletter h1{
